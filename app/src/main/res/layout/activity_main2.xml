@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".Main2">
+
+    <GridLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:rowCount="1"
+        android:columnCount="1">
+
+        <EditText
+            android:id="@+id/name_product"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Морозиво"
+            android:textSize="26sp"
+            android:layout_marginTop="50dp"
+            android:layout_marginLeft="50dp"/>
+
+        <EditText
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/price"
+            android:text="Ціна 50грв"
+            android:textSize="26sp"
+            android:layout_marginTop="50dp"
+            android:layout_marginLeft="50dp"/>
+
+        <EditText
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/count"
+            android:text="кількість 5"
+            android:textSize="26sp"
+            android:layout_marginTop="50dp"
+            android:layout_marginLeft="50dp"/>
+
+        <EditText
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/manufacturer"
+            android:text="Галичина"
+            android:textSize="26sp"
+            android:layout_marginTop="50dp"
+            android:layout_marginLeft="50dp"/>
+
+        <Button
+            android:id="@+id/button"
+            android:layout_width="343dp"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="50dp"
+            android:onClick="back"
+            android:text="Назад" />
+
+
+    </GridLayout>
+
+</androidx.constraintlayout.widget.ConstraintLayout>
