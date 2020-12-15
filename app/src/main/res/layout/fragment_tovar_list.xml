@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:id="@+id/list"
+    tools:context=".tovarslist.TovarListFragment">
+
+    <ListView
+        android:id="@+id/tovarList"
+        android:layout_width="match_parent"
+        android:layout_height="232dp" />
+
+    <LinearLayout
+        android:id="@+id/contact_info"
+        android:layout_width="match_parent"
+        android:layout_height="496dp"
+        android:layout_below="@id/tovarList"
+        android:layout_marginTop="3dp"
+        android:orientation="vertical">
+
+    </LinearLayout>
+
+</RelativeLayout>
